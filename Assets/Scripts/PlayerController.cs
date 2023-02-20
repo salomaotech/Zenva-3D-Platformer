@@ -113,4 +113,10 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    void OnTriggerEnter(Collider collider)
+    {
+
+
+    }
+
 }

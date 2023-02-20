@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4453972018074711575}
   - component: {fileID: -1288630661319898871}
   - component: {fileID: -4217442095835255069}
+  - component: {fileID: -1555776677781698691}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -129,3 +130,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 8
   jumpSpeed: 7
+--- !u!65 &-1555776677781698691
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2439942206011977498}
+  m_Material: {fileID: 13400000, guid: a5a17485114613c4b8d167b7733c7705, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
