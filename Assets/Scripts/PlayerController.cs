@@ -5,14 +5,14 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
+    public AudioSource coinAudioSource;
     public float walkSpeed = 8f;
     public float jumpSpeed = 7f;
 
     Rigidbody rg;
-
     Collider coll;
-
     bool pressedjump = false;
+  
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
         rg = GetComponent<Rigidbody>();
 
         coll = GetComponent<Collider>();
+
 
     }
 
@@ -116,6 +117,13 @@ public class PlayerController : MonoBehaviour
     void OnTriggerEnter(Collider collider)
     {
 
+        if(collider.gameObject.tag == "Coin")
+        {
+
+            coinAudioSource.Play();
+            Destroy(collider.gameObject);
+
+        }
 
     }
 

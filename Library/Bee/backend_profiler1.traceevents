@@ -1,471 +1,473 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1676750980474992, "dur":2716, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676750980477719, "dur":748, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1676750980478487, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1676750980478506, "dur":209, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1676750980478746, "dur":624, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676750980479370, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676750983774582, "dur":78, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676750983774660, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676750983774674, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676750983774677, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676750983774686, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676750983774688, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676750983774705, "dur":10, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676750983774715, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676750983774723, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676750983774743, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676750983879718, "dur":5395, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1676750980479242, "dur":151, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750980479395, "dur":5814, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750980485228, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1676750980485244, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750980486300, "dur":891, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1676750980487197, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1676750980487254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750980487485, "dur":7270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1676750980494759, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1676750980494891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750980495132, "dur":28038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1676750980523217, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1676750980523335, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750980523343, "dur":363686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1676750980887081, "dur":322190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":1, "ts":1676750981209276, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750981209284, "dur":10463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":1, "ts":1676750981219791, "dur":73852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981293650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750981293661, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981294817, "dur":53663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981348485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750981348493, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981349479, "dur":26757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981376241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750981376250, "dur":9051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981385343, "dur":27001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981412355, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750981412369, "dur":1059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981413475, "dur":30637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981444119, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750981444130, "dur":1400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981445574, "dur":88640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981534217, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750981534226, "dur":85041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981619320, "dur":18251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981637577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750981637588, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981638708, "dur":150926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981789642, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750981789656, "dur":4824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981794702, "dur":24104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981818979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750981818986, "dur":13261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981832291, "dur":39613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981871910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750981871929, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981872871, "dur":30791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981903668, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750981903679, "dur":2152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981905879, "dur":14752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981920638, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750981920649, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981921712, "dur":24111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981945830, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750981945840, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981946862, "dur":15161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981962032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750981962041, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750981963096, "dur":52658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982015760, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750982015771, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982016809, "dur":91162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982107977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750982107986, "dur":11528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982119556, "dur":18681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982138245, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750982138257, "dur":3913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982142235, "dur":30139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982172381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750982172391, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982173500, "dur":109178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982282685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750982282696, "dur":12581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982299300, "dur":148580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982447885, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750982447895, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982449001, "dur":46462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982495471, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750982495495, "dur":13768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982509306, "dur":39042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982548353, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750982548363, "dur":47519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982595928, "dur":5203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982601137, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750982601148, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982602077, "dur":34238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982636317, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750982636324, "dur":31630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982668003, "dur":89867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982757898, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750982757908, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982759005, "dur":91000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982850013, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750982850023, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982851659, "dur":104479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750982956144, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750982956155, "dur":81701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750983037917, "dur":141268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750983179191, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750983179201, "dur":4749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750983183995, "dur":176335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750983360335, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750983360345, "dur":6398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750983366782, "dur":106627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750983473414, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750983473424, "dur":991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750983474453, "dur":33578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750983508036, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750983508047, "dur":3570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676750983511658, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":1, "ts":1676750983511858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750983518985, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":1, "ts":1676750983519827, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":1, "ts":1676750983519869, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750983519966, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":1, "ts":1676750983521028, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":1, "ts":1676750983521070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750983521076, "dur":100211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":1, "ts":1676750983621331, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1676750983621457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750983621465, "dur":748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1676750983622252, "dur":7504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1676750983629763, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750983629772, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1676750983630790, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/level0.resS" }}
-,{ "pid":12345, "tid":1, "ts":1676750983630830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750983630835, "dur":12071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/level0.resS" }}
-,{ "pid":12345, "tid":1, "ts":1676750983642952, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1676750983642993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750983643001, "dur":9089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1676750983652133, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":1, "ts":1676750983652177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750983652185, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":1, "ts":1676750983653172, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1676750983653235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750983653240, "dur":791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1676750983654073, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1676750983654196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676750983654201, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1676750983654945, "dur":119641, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750980479304, "dur":94, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750980479398, "dur":5850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750980485248, "dur":38295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1676750980523546, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750980523567, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1676750980524725, "dur":8986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1676750980533718, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750980533729, "dur":35135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1676750980568910, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1676750980569042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750980569048, "dur":320020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1676750980889115, "dur":152034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer.exe" }}
-,{ "pid":12345, "tid":2, "ts":1676750981041155, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981041162, "dur":3316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer.exe" }}
-,{ "pid":12345, "tid":2, "ts":1676750981044522, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":2, "ts":1676750981044639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981059583, "dur":54978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":2, "ts":1676750981114609, "dur":14957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981129572, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981129875, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981131015, "dur":17415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981148438, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981148551, "dur":7914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981156508, "dur":26332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981182846, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981182856, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981183944, "dur":30215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981214164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981214173, "dur":4683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981218907, "dur":15097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981234012, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981234025, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981234991, "dur":15256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981250253, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981250264, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981251833, "dur":11727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981263565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981263575, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981264912, "dur":40231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981305150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981305161, "dur":5491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981310709, "dur":22412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981333128, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981333138, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981334301, "dur":110009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981444314, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981444326, "dur":4974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981449351, "dur":39514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981488871, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981488881, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981490178, "dur":47801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981537985, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981537996, "dur":81525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981619569, "dur":21011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981640586, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981640606, "dur":115693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981756450, "dur":38684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981795140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981795152, "dur":2556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981797777, "dur":21102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981818884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981818894, "dur":11461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981830403, "dur":43727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981874134, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981874145, "dur":2433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981876627, "dur":19140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981895773, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981895783, "dur":1841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981897666, "dur":16338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981914010, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981914023, "dur":1945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981916010, "dur":23489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981939505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981939515, "dur":1600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981941157, "dur":14604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981955767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981955777, "dur":1591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981957411, "dur":16440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981973858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750981973869, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750981974886, "dur":25274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750982000167, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750982000180, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750982001577, "dur":21276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750982022857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750982022864, "dur":94760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750982117685, "dur":20586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750982138275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750982138282, "dur":3697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750982142025, "dur":32212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750982174241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750982174250, "dur":7521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750982181819, "dur":41945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750982223770, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750982223781, "dur":4422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750982228408, "dur":359527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750982587940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750982587949, "dur":9614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750982597602, "dur":37260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750982634878, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750982634889, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750982636084, "dur":255190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750982891279, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750982891288, "dur":27958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750982919286, "dur":38201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750982957491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750982957499, "dur":81923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750983039488, "dur":625953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750983665447, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676750983665458, "dur":6714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676750983672219, "dur":102347, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750980479346, "dur":57, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750980479403, "dur":5826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750980485229, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1676750980485385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750980487813, "dur":12164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1676750980500137, "dur":22437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1676750980522581, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750980522593, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1676750980523921, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1676750980524050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750980525550, "dur":3082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1676750980528678, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1676750980528835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750980529079, "dur":2558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1676750980531682, "dur":36771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1676750980568458, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750980568492, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1676750980569454, "dur":1332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1676750980570790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750980571767, "dur":2366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1676750980574178, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1676750980574292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750980574351, "dur":8397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1676750980582798, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1676750980582916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750980582926, "dur":304098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1676750980887077, "dur":1081918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750981969001, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750981969010, "dur":37461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750982006516, "dur":16043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750982022562, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750982022569, "dur":102809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750982125486, "dur":61685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750982187199, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750982187210, "dur":7819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750982195071, "dur":55467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750982250544, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750982250555, "dur":39304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750982289915, "dur":70697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750982360618, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750982360629, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750982361655, "dur":176063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750982537724, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750982537734, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750982539002, "dur":58709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750982597714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750982597723, "dur":1540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750982599306, "dur":4154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750982603465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750982603473, "dur":4827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750982608346, "dur":4093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750982612448, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750982612461, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750982613456, "dur":84719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750982698181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750982698190, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750982699267, "dur":189765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750982889040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750982889050, "dur":27481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750982916581, "dur":81718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750982998328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750982998338, "dur":41363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750983039743, "dur":174413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750983214167, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750983214178, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750983215170, "dur":96042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750983311220, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750983311229, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750983312385, "dur":105338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750983417728, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750983417737, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750983419091, "dur":258687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750983677784, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676750983677795, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1676750983679108, "dur":95456, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750980479424, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750980479424, "dur":5786, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750980485228, "dur":83224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1676750980568458, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750980568780, "dur":2442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1676750980571268, "dur":8453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1676750980579727, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750980579740, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1676750980580758, "dur":7916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1676750980588681, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750980588693, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1676750980589789, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1676750980589930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750980589938, "dur":8907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1676750980598897, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":4, "ts":1676750980599014, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750980599024, "dur":4782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":4, "ts":1676750980603871, "dur":54166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750980658045, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750980659112, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750980660742, "dur":369985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981030733, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750981039961, "dur":28742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981068751, "dur":82936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981151690, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750981151698, "dur":5714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981157495, "dur":26134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981183632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750981183638, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981184482, "dur":15839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981200327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750981200336, "dur":1052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981201428, "dur":26359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981227793, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750981227804, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981228988, "dur":18637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981247631, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750981247642, "dur":3259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981250943, "dur":12617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981263565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750981263575, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981264900, "dur":14659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981279566, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750981279577, "dur":4737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981284356, "dur":14158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981298520, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750981298530, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981299898, "dur":12996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981312900, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750981312910, "dur":1683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981314636, "dur":29467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981344110, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750981344120, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981345294, "dur":118475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981463774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750981463783, "dur":13049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981476877, "dur":12892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981489774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750981489784, "dur":883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981490704, "dur":42302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981533013, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750981533022, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981534249, "dur":106335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981640587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750981640606, "dur":114247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981755019, "dur":59600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981814629, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750981814646, "dur":2555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981817245, "dur":51172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981868424, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750981868435, "dur":2335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981870812, "dur":43277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981914093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750981914100, "dur":2055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981916195, "dur":80731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981996934, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750981996948, "dur":2212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750981999212, "dur":22969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982022189, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750982022200, "dur":95480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982117730, "dur":20938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982138670, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750982138676, "dur":6697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982145423, "dur":36961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982182388, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750982182398, "dur":10972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982193412, "dur":35660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982229076, "dur":98, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750982229305, "dur":57415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982286993, "dur":80361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982367360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750982367370, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982368773, "dur":104984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982473764, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750982473773, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982475095, "dur":31546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982506648, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750982506657, "dur":2884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982509580, "dur":13563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982523150, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750982523161, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982524204, "dur":111848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982636056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750982636062, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982637464, "dur":97305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982734775, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750982734785, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982736355, "dur":126228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982862590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750982862600, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982864208, "dur":92527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750982956739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750982956745, "dur":82513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750983039315, "dur":252337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750983291659, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750983291670, "dur":2930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750983294645, "dur":109037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750983403688, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750983403699, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750983404989, "dur":365068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750983770062, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676750983770072, "dur":4414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Nova pasta/Zenva 3D Platformer_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":4, "ts":1676750983774529, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":4, "ts":1676750983774533, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676750983889711, "dur":3022, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1677099735012518, "dur":1835, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677099735014365, "dur":69, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1677099735014449, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1677099735014470, "dur":203, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1677099735014711, "dur":657, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677099735015368, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677099738217402, "dur":285, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677099738217688, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677099738217702, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677099738217706, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677099738217715, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677099738217717, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677099738217724, "dur":43, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677099738217767, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677099738217776, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677099738217793, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677099738218446, "dur":4085, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1677099735015249, "dur":126, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735015377, "dur":5409, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735020793, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677099735020812, "dur":523, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735021337, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677099735021341, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735027618, "dur":12878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677099735040499, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1677099735040616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735040633, "dur":10983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1677099735051663, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1677099735052073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735052135, "dur":42330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1677099735094510, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1677099735094626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735094827, "dur":8528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1677099735103409, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1677099735103531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735103540, "dur":8367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1677099735111964, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1677099735112080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735112090, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1677099735114238, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1677099735114354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735114362, "dur":2905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1677099735117322, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099735117454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735117673, "dur":4032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099735121779, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099735121926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735121995, "dur":23408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099735145464, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099735145603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735145609, "dur":75245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099735220900, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1677099735221029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735221038, "dur":5369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1677099735226447, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer.exe" }}
+,{ "pid":12345, "tid":1, "ts":1677099735226493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735226499, "dur":109244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer.exe" }}
+,{ "pid":12345, "tid":1, "ts":1677099735335789, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1677099735335921, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735336428, "dur":29646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1677099735366142, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099735366195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735366802, "dur":238343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099735605185, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099735605280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735605285, "dur":34929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099735640254, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099735640355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735640363, "dur":44403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099735684806, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099735684890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735684895, "dur":16836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099735701786, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099735701885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735701894, "dur":42624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099735744559, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099735744667, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735744675, "dur":58096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099735802816, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099735802916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735802924, "dur":31964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099735834927, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099735835013, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099735835020, "dur":197667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736032730, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736032820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099736032828, "dur":63857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736096724, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736096806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099736096813, "dur":31354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736128207, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736128290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099736128296, "dur":55386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736183729, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736183837, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099736183847, "dur":98407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736282327, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736282704, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099736282749, "dur":61203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736343995, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736344272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099736344282, "dur":49930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736394253, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736394344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099736394350, "dur":39596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736433991, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736434038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099736434049, "dur":39358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736473451, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736473850, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099736473859, "dur":26607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736500511, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736500609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099736500617, "dur":29032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736529698, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736530023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099736530035, "dur":44242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736574323, "dur":55339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736629668, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099736629681, "dur":7313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736637041, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736637090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099736637123, "dur":74394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736711590, "dur":12996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736724592, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099736724603, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736725800, "dur":52348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736778154, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099736778166, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736779422, "dur":64222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736843647, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099736843655, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736844976, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099736845014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099736845021, "dur":248546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099737093619, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099737093664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099737093672, "dur":102886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099737196599, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099737196688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099737196696, "dur":33974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099737230710, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099737230804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099737230815, "dur":222628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099737453486, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099737453576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099737453584, "dur":122170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099737575796, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099737575903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099737575912, "dur":212219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099737788173, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099737788268, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677099737788275, "dur":428977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677099738217313, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1677099738217317, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099735015327, "dur":58, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099735015385, "dur":5402, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099735020793, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1677099735020982, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099735022526, "dur":71912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1677099735094501, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1677099735094604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099735095095, "dur":5181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1677099735100329, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1677099735100454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099735100513, "dur":8291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1677099735108854, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1677099735108983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099735108993, "dur":316229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1677099735425277, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099735425325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099735425370, "dur":180476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099735605889, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099735605978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099735605984, "dur":49797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099735655824, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099735655954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099735655961, "dur":28652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099735684658, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099735684745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099735684752, "dur":19120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099735703916, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099735704022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099735704031, "dur":15826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099735719896, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099735719987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099735719995, "dur":17418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099735737454, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099735737551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099735737565, "dur":27515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099735765128, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099735765225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099735765233, "dur":340273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736105551, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736105673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099736105682, "dur":44824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736150550, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736150663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099736150672, "dur":21708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736172426, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736172529, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099736172545, "dur":75141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736247747, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736247880, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099736247896, "dur":57735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736305671, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736305767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099736305775, "dur":92861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736398683, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736398851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099736398860, "dur":35908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736434807, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736434909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099736434916, "dur":172270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736607234, "dur":129334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736736573, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099736736584, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736737934, "dur":40273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736778210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099736778216, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736779294, "dur":1301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736780600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099736780607, "dur":2421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736783131, "dur":1555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736784696, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099736784726, "dur":2165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736786941, "dur":1117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736788062, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099736788070, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736788979, "dur":37828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736826813, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099736826849, "dur":2131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736829027, "dur":12229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736841262, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099736841272, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736842864, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736842904, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099736842910, "dur":117261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736960210, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099736960250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099736960258, "dur":179458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099737139794, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099737139836, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099737139843, "dur":172480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099737312368, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099737312476, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099737312484, "dur":81718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099737394240, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099737394320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099737394327, "dur":382135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099737776504, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099737776609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677099737776618, "dur":187924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677099737964582, "dur":252805, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099735015290, "dur":89, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099735015379, "dur":5438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099735020818, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1677099735021020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099735027008, "dur":24193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1677099735051268, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1677099735051385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099735051935, "dur":2772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1677099735054761, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1677099735054882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099735054890, "dur":2160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1677099735057255, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1677099735057402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099735057414, "dur":37016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1677099735094487, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1677099735094599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099735094607, "dur":331778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1677099735426447, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099735426517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099735426524, "dur":178522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099735605091, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099735605192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099735605199, "dur":48752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099735653999, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099735654108, "dur":80, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099735654198, "dur":34057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099735688301, "dur":735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099735689040, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099735689048, "dur":27824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099735716912, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099735717000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099735717007, "dur":76245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099735793298, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099735793407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099735793414, "dur":21907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099735815366, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099735815461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099735815470, "dur":55793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099735871313, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099735871416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099735871424, "dur":68676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099735940146, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099735940254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099735940263, "dur":78889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736019192, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736019281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099736019289, "dur":57821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736077156, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736077259, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099736077267, "dur":49667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736126974, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736127063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099736127071, "dur":42104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736169219, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736169319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099736169327, "dur":114536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736283944, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736284041, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099736284047, "dur":59386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736343483, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736343589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099736343599, "dur":50516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736394158, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736394254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099736394263, "dur":48926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736443227, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736443323, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099736443329, "dur":30776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736474143, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736474229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099736474236, "dur":46627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736520909, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736521015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099736521024, "dur":117431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736638525, "dur":86062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736724592, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099736724603, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736725788, "dur":61026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736786821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099736786830, "dur":3970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736790860, "dur":17261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736808127, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099736808139, "dur":1671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736809855, "dur":72796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736882657, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099736882668, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736883598, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736883640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099736883646, "dur":110811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736994568, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099736994631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099736994646, "dur":317707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099737312395, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099737312475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099737312484, "dur":235290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099737547828, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099737547990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099737548000, "dur":237995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099737786041, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099737786142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099737786151, "dur":129127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099737915319, "dur":12877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099737928201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099737928210, "dur":7490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677099737935740, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1677099737935899, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099737936278, "dur":718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1677099737937033, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1677099737937073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099737937111, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1677099737938188, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1677099737938228, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099737938234, "dur":705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1677099737938974, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1677099737939010, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099737939014, "dur":721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1677099737939770, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1677099737939877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099737939882, "dur":782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1677099737940697, "dur":1870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1677099737942574, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099737942588, "dur":4648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1677099737947274, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1677099737947313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099737947321, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1677099737948169, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1677099737948204, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099737948227, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1677099737948926, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1677099737948962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099737948967, "dur":826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1677099737949833, "dur":875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1677099737950715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099737950725, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1677099737952374, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1677099737952502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677099737952509, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1677099737953339, "dur":264054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099735015353, "dur":36, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099735015389, "dur":5410, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099735020799, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1677099735020969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099735022722, "dur":12491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1677099735035267, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1677099735035389, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099735035398, "dur":14688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1677099735050137, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1677099735050261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099735050270, "dur":375081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1677099735425396, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099735425447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099735425474, "dur":152707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099735578227, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099735578345, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099735578352, "dur":67474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099735645875, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099735645977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099735646065, "dur":121488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099735767594, "dur":152342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099735920051, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099735920063, "dur":3729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099735923838, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099735923957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099735923985, "dur":33679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099735957704, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099735957804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099735957814, "dur":94285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736052148, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736052275, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099736052286, "dur":44081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736096412, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736096507, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099736096516, "dur":37387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736133947, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736134039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099736134048, "dur":85236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736219327, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736219451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099736219463, "dur":62799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736282345, "dur":481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736282834, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099736282854, "dur":132089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736414987, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736415079, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099736415087, "dur":27517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736442658, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736442754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099736442762, "dur":33597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736476403, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736476709, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099736476717, "dur":39732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736516493, "dur":851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736517374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099736517384, "dur":46759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736564191, "dur":1533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736565729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099736565739, "dur":27520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736593300, "dur":106067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736699374, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099736699385, "dur":1457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099736700881, "dur":384981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099737085875, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099737085900, "dur":4074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099737090018, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099737090060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099737090068, "dur":313297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099737403407, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099737403510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099737403519, "dur":236409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099737639971, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099737640083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099737640092, "dur":263683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099737903822, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099737903962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677099737903970, "dur":241727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/usuario/Desktop/Jogo/Zenva 3D Platformer_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677099738145742, "dur":71639, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677099738224880, "dur":1841, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
