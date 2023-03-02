@@ -120,8 +120,16 @@ public class PlayerController : MonoBehaviour
         if(collider.gameObject.tag == "Coin")
         {
 
+            GameManager.instance.IncreaseScore(1);
             coinAudioSource.Play();
             Destroy(collider.gameObject);
+
+        }
+
+        if(collider.gameObject.tag == "Enemy")
+        {
+
+            print("Game Over!");
 
         }
 
