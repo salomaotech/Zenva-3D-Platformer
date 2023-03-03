@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class PlayerController : MonoBehaviour
 {
@@ -8,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public AudioSource coinAudioSource;
     public float walkSpeed = 8f;
     public float jumpSpeed = 7f;
+    public HudManager hud;
 
     Rigidbody rg;
     Collider coll;
@@ -22,6 +25,7 @@ public class PlayerController : MonoBehaviour
 
         coll = GetComponent<Collider>();
 
+        hud.Refresh();
 
     }
 
@@ -121,6 +125,7 @@ public class PlayerController : MonoBehaviour
         {
 
             GameManager.instance.IncreaseScore(1);
+            hud.Refresh();
             coinAudioSource.Play();
             Destroy(collider.gameObject);
 
@@ -129,7 +134,13 @@ public class PlayerController : MonoBehaviour
         if(collider.gameObject.tag == "Enemy")
         {
 
-            print("Game Over!");
+            SceneManager.LoadScene("Level2");
+
+
+        }else if (coll.gameObject.tag == "Goal")
+        {
+
+            print("Next Level");
 
         }
 

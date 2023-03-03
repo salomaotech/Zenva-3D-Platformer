@@ -228,6 +228,7 @@ MonoBehaviour:
   coinAudioSource: {fileID: 2295206522863439621}
   walkSpeed: 8
   jumpSpeed: 7
+  hud: {fileID: 3428523930819214647, guid: 1028acb4a6a4bdb4881b851a9adf4d44, type: 3}
 --- !u!65 &-1555776677781698691
 BoxCollider:
   m_ObjectHideFlags: 0
